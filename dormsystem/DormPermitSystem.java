@@ -6,9 +6,16 @@ import java.util.Scanner;
 
 public class DormPermitSystem {
 	 public static void main(String[] args) {
-		 List<Resident> residents = new ArrayList<>();
-	        residents.add(new Resident("John Doe", "101"));
-	        residents.add(new Resident("Jane Doe", "102"));
+		System.out.println("=====================================");
+		System.out.println("====== P E R M I L O G I T A L ======");
+		System.out.println("=====================================");
+		 
+		List<Resident> residents = new ArrayList<>();
+	        	residents.add(new Resident("Dom Dicar", "20"));
+	        	residents.add(new Resident("Earl Pabua", "8"));
+			residents.add(new Resident("Apong Erazo", "8"));
+			residents.add(new Resident("Emmanuel Albeza", "9"));
+			residents.add(new Resident("Albert Einstein", "10"));
 
 	        System.out.println("Dorm Residents:");
 	        for (Resident resident : residents) {
