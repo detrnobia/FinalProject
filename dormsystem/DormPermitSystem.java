@@ -13,14 +13,14 @@ public class DormPermitSystem {
 	        System.out.println("Dorm Residents:");
 	        for (Resident resident : residents) {
 	            System.out.println(resident.getName() + " - Room: " + resident.getRoomNumber());
-	        }
+	        } // Hello asdfghjkl;
 
-	        Scanner scanner = new Scanner(System.in);
+	        Scanner scanner = new Scanner(System.in); // Hello asdfghjkl;
 
-	        System.out.println("\nEnter your name: ");
+	        System.out.println("\nEnter your name: "); // Hello asdfghjkl;
 	        String name = scanner.nextLine();
 
-	        System.out.println("Enter your room number: ");
+	        System.out.println("Enter your room number: "); // Hello asdfghjkl;
 	        String roomNumber = scanner.nextLine();
 
 	        System.out.println("Enter the permit type (late permit, overnight permit, weekend permit): ");
